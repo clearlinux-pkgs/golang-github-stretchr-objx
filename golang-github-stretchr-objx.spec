@@ -7,6 +7,7 @@ Summary  : No detailed summary available
 Group    : Development/Tools
 License  : MIT
 BuildRequires : go
+BuildRequires : golang-github-stretchr-testify
 
 %description
 # objx
@@ -32,7 +33,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost
 export GOPATH=%{buildroot}%{gopath}
-#go test %{library_path}
+go test %{library_path}
 
 %files
 %defattr(-,root,root,-)
