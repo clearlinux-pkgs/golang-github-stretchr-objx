@@ -1,6 +1,6 @@
 Name     : golang-github-stretchr-objx
 Version  : 0
-Release  : 3
+Release  : 4
 URL      : https://github.com/stretchr/objx/archive/cbeaeb16a013161a98496fad62933b1d21786672.tar.gz
 Source0  : https://github.com/stretchr/objx/archive/cbeaeb16a013161a98496fad62933b1d21786672.tar.gz
 Summary  : No detailed summary available
